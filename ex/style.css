@@ -1,0 +1,290 @@
+/* RESET בסיסי */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* קונטיינר מרכזי */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* כפתורים */
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 999px;
+    background-color: #18c257;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #12a347;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+}
+
+.btn-small {
+    padding: 8px 18px;
+    box-shadow: none;
+}
+
+
+.hero {
+    background-image:
+      linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.35)),
+      url("./images/group-fitess.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.overlay {
+    background: linear-gradient(180deg, #00b44a 0%, rgba(0,180,74,0.75) 35%, rgba(0,0,0,0.3) 100%);
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 60px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+.hero-content {
+    text-align: center;
+    padding: 80px 20px 120px;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+
+.section {
+    padding: 60px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+
+.services-section {
+    background: linear-gradient(#0db145, #0b9240);
+    color: #fff;
+}
+
+.cards {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: #fff;
+    color: #333;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 320px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.18);
+    overflow: hidden;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+    height: 190px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin: 16px 0 8px;
+}
+
+.card p {
+    padding: 0 18px 20px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+.testimonials-section {
+    background: #f9f9f9;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    background: #fff;
+    border-radius: 999px;
+    padding: 18px 26px;
+    max-width: 320px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    font-size: 14px;
+    text-align: center;
+}
+
+.testimonial span {
+    display: block;
+    margin-top: 8px;
+    font-weight: 600;
+}
+
+
+.contact-wrapper {
+    padding: 0;
+}
+
+.contact-gradient {
+    background: linear-gradient(#0db145, #027b3a, #003721);
+    color: #fff;
+    padding: 60px 0 70px;
+}
+
+.section-title.light {
+    color: #fff;
+}
+
+.contact-subtitle {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 14px;
+}
+
+.contact-title {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 13px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 18px;
+    border-radius: 999px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.contact-form textarea {
+    border-radius: 20px;
+    resize: vertical;
+    min-height: 100px;
+}
+
+.form-btn {
+    width: 160px;
+    display: block;
+    margin: 18px auto 0;
+    text-align: center;
+}
+
+/* FOOTER */
+.footer {
+    background: #222;
+    color: #bbb;
+    text-align: center;
+    padding: 18px 10px 24px;
+    font-size: 12px;
+}
+
+.footer-links a {
+    color: #8fd4a9;
+    text-decoration: none;
+    margin: 0 4px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+    .navbar {
+        padding: 16px 20px;
+    }
+
+    .nav-links {
+        gap: 12px;
+        font-size: 14px;
+    }
+
+    .hero-content h1 {
+        font-size: 30px;
+    }
+
+    .cards,
+    .testimonials {
+        flex-direction: column;
+        align-items: center;
+    }
+
