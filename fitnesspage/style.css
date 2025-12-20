@@ -1,4 +1,8 @@
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 html, body {
     height: 100%;
 }
@@ -11,6 +15,7 @@ body {
 
 
 .navbar{
+   
    display: flex;
     align-items: center;
     justify-content: space-between;
@@ -77,6 +82,9 @@ body {
     background-image: url("./images/group-fitess.jpg");
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     color: #fff;
     text-shadow: 0 0 5px rgb(0, 0, 0);
@@ -84,7 +92,17 @@ body {
 
 }
 
-h1, p{
+.services-btn{
+    width: fit-content;
+   color: #fff ;
+    background-color: #2DCC70;
+    padding: 10px 20px;
+    border-radius: 50px;
+    
+    align-items: center;
+    display: inline-flex;   
+    justify-content: center;
+     margin: 18px auto 0; 
+    border: none;
 }
-
 
