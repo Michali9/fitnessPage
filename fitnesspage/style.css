@@ -14,7 +14,9 @@ body {
    display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 120px;
+    padding: 20px 100px 10px;
+    
+    box-sizing: border-box;
 
 }
 .nav-links{
@@ -33,6 +35,8 @@ body {
     color: #fff;
   text-decoration: none;
   font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
   
     
     
@@ -41,20 +45,28 @@ body {
     text-decoration: none;
 }
 .logo{
-  display: flex;
-    align-items: center;   
     margin: 0;
     font-size: 32px;
     font-weight: 650;
     color: #fff;
     text-shadow: 0 0 15px rgba(0,0,0,0.8);
+    line-height: 1;
+    display: flex;
+    align-items: center;   
+    
+    
 }
 .nav-links a.join-btn{
     color:  #2DCC70;
-    border: 2px solid #fff;
-    padding: 6px 14px;
-    border-radius: 30px;
     background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    
+    
+    
+    
 
 }
 .nav-links a:not(.join-btn) {
@@ -65,4 +77,15 @@ body {
     background-image: url("./images/group-fitess.jpg");
     background-size: cover;
     background-position: center;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    
+
 }
+
+h1, p{
+    margin-top: 10px;
+}
+
+
